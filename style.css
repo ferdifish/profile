@@ -83,6 +83,7 @@ a {
 
 
 #card1 {
+  border-radius: 25px;
   background-color: #ff6b6b;
   box-shadow: 1px 5px 1px #ff6b6b;
   margin: 5px auto;
@@ -90,6 +91,7 @@ a {
 }
 
 #card2 {
+  border-radius: 25px;
   background-color: #ff6b6b;
   box-shadow: 1px 5px 1px #ff6b6b;
   margin: 5px auto;
@@ -98,6 +100,7 @@ a {
 }
 
 #card3 {
+  border-radius: 25px;
   background-color: #ff6b6b;
   box-shadow: 1px 5px 1px #ff6b6b;
   margin: 5px auto;
@@ -106,6 +109,7 @@ a {
 }
 
 #card4 {
+  border-radius: 25px;
   background-color: #ff6b6b;
   box-shadow: 1px 5px 1px #ff6b6b;
   margin: 5px auto;
