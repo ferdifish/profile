@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+  background-color: rgba(193, 207, 218, 0.1);
+  text-align: center;
+  font-size: 60px
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+background-image {
+  border-radius: 125px
+
+}
+
+
+h1 {
+  margin: 15px, 0px;
+  font-size: 35px;
+  padding-top: 10px;
+  color: purple;
+}
+
+h2 {
+  margin: 15px, 0px;
+  font-size: 15px;
+}
+
+h3 {
+  padding-top: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+
+p {
+  margin-bottom: 40px;
+}
+
+img {
+  border-radius: 125px
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 50 auto; /* This automatically sets left/right margins */
+}
+
+
+
+.card{
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+/*.avatar {
+  border-radius: 50%;
+  border: 2px solid rgba(255, 0, 0, .7);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.25s;
+}
+
+.avatar:hover {
+  transform: rotate(360deg);
+}
+*/
+
+
+#card1 {
+  background-color: #ff6b6b;
+  box-shadow: 1px 5px 1px #ff6b6b;
+  margin: 5px auto;
+  width: 70%;
+}
+
+#card2 {
+  background-color: #ff6b6b;
+  box-shadow: 1px 5px 1px #ff6b6b;
+  margin: 5px auto;
+  padding: 0;
+  width: 70%;
+}
+
+#card3 {
+  background-color: #ff6b6b;
+  box-shadow: 1px 5px 1px #ff6b6b;
+  margin: 5px auto;
+  padding: 0;
+  width: 70%;
+}
+
+#card4 {
+  background-color: #ff6b6b;
+  box-shadow: 1px 5px 1px #ff6b6b;
+  margin: 5px auto;
+  padding: 0;
+  width: 100%;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-blue {
+    background-color: #4ecdc4;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn-blue:hover {
+    background-color: #87B38D;
+}
+
+.icon-grey {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 5px;
+}
+
+.icon-grey:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+/*
+div {
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  margin: 5px auto;
+  width: 700px;
+  background-color: white;
+  padding: 60px;
+  box-sizing: border-box;
+}*/
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
