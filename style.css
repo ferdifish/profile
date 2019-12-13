@@ -99,9 +99,16 @@ h1{
   border: white 1px solid;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #946E83 ;
+}
+.navbar-light .navbar-nav .nav-link .active{
+  color: #946E83 ;
+}
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
+  height: 100px;
 }
 
 .navbar-lewagon .navbar-collapse {
