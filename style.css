@@ -4,17 +4,17 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
 
 
-h1 {
-  text-align: center;
-  font-size: 40px;
-  margin:20px;
-  background: linear-gradient(270deg, #3adfb4, #f38cc2);
+.big-card h1{
+  font-size: 50px;
+  text-align:center;
+  background: linear-gradient(270deg, #66b6a1, #b66666, #666fb6);
+  background-size: 600% 600%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  // background-size: 400% 400%;
-  -webkit-animation: AnimationName 14s ease infinite;
-  -moz-animation: AnimationName 14s ease infinite;
-  animation: AnimationName 14s ease infinite;
+  -webkit-animation: AnimationName 6s ease infinite;
+  -moz-animation: AnimationName 6s ease infinite;
+  animation: AnimationName 6s ease infinite;
+}
 
   @-webkit-keyframes AnimationName {
       0%{background-position:0% 50%}
@@ -31,22 +31,28 @@ h1 {
       50%{background-position:100% 50%}
       100%{background-position:0% 50%}
   }
-}
+
+
 p {
   text-align: justify;
   font-size: 14px;
   margin:20px;
   color: #946E83;
 }
+
 .big-card{
 width: 50%;
 border:1px solid black;
-height:70vh;
+padding:20px 0px;
 }
 
 .carousel-inner {
-  height:50%;
+  height:60%;
 }
+.carousel-inner img{
+  object-fit: cover;
+}
+
 .btn-ghost {
   color: #4A4A4A;
   border: 1px solid #4A4A4A;
@@ -56,27 +62,20 @@ height:70vh;
   opacity: 0.6;
   transition: opacity 0.3s ease;
 }
-.cards{
-  top: 3%;
-  position: sticky;
-  width: 100%;
-  border-radius: 10px;
-  background-color: white;
-  padding:15px;
-  justify-content: center;
-  text-align:center;
-}
+
 
 .caro{
-  width:100%;
+  width:75%;
   height:25%;
 }
 
 .text{
   display:flex;
   justify-content: center;
-
+  align-items:center;
 }
+
+
 .avatar {
   width: 40px;
   border-radius: 50%;
@@ -119,6 +118,13 @@ height:70vh;
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.small-card{
+  height:300px;
+  border:1px solid black;
+  margin:15px 0;
+  paddi;
 }
 
 .footer {
